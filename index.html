@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form Fields Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Form Fields Demo</h1>
+
+  <form id="demo-form" method="POST">
+    <label>Text <input type="text" name="text" placeholder="Plain text"></label>
+    <label>Email <input type="email" name="email" placeholder="you@example.com"></label>
+    <label>Password <input type="password" name="password"></label>
+    <label>Textarea <textarea name="message" rows="4" placeholder="Write something..."></textarea></label>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+
+  <h2>Submitted values</h2>
+  <pre id="output">Nothing submitted yet.</pre>
+
+</body>
+</html>
